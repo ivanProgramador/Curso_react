@@ -1,0 +1,11 @@
+{
+  "name": "curso_react",
+  "version": "1.0.0",
+  "description": "curso pra entender e dominar o consumos de apis por frameworks reativos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Rodrigues",
+  "license": "ISC"
+}

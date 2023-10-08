@@ -1,0 +1,4 @@
+instalar o node que vai rodar todos os codigos necessarios para op react funcionar
+depois dar o comando pra criar um projeto usando o gerenciador de pacotes npx.
+
+- npx create-react-app react-basico
