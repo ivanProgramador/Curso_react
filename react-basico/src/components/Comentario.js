@@ -13,10 +13,13 @@ import './Comentario.css';
 */
 
 
-const Comentario = () => (
+const Comentario = (props) => (
     <div className="Comentario" >
-        <div>João</div>
-        <div>Olá, tudo bem ?</div>
+        <div>{props.nome}</div>
+        <p>{props.email}</p>
+        <div>{props.children}</div>
+        <p>{props.data.toString()}</p>
+        
     </div>
 );
 
