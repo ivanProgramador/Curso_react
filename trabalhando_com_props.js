@@ -9,13 +9,13 @@ import './Comentario.css';
     Olá, tudo bem ?
   Comentario/>
 
-  Embora elas estejam ai preenchidas ela só vão aparecer quaneu declarar um props como paramentro 
-  lá na função componente.No exemplo abaixo o porps que vem de lá esta declarado como um componente
-  quando isso acontece eu posso distyribuir os dados dele dentro das tags exitenetes no componente
-  que eu criei. POr exemplo o atributo nome eu estou exbinbdo em uma div mas ele poderia ser qualquer 
-  outra tag, para os dados que preciand ficar literalmente no corpo do componente são cahamdos de filho
-  por isso ao inves de usar props.mensagem eu so precisei colocar pors.childrem que ele ja sabe que se 
-  trata de uma mensagem,compomnet, elemento que precisa ser mostrado no corpo do componente.    
+  Embora elas estejam ai preenchidas elas só vão aparecer quando a função receber o props como paramentro 
+  lá na função componente.No exemplo abaixo o props que vem de lá esta declarado como um componente
+  quando isso acontece eu posso distribuir os dados dele dentro das tags exitentes no componente
+  que eu criei. Por exemplo o atributo nome eu estou exbinbdo em uma div mas ele poderia ser qualquer 
+  outra tag, para os dados que possam ficar literalmente no corpo do componente são chamados de filho
+  por isso ao inves de usar props.mensagem eu só precisei colocar props.childrem que ele ja sabe que se 
+  trata de uma mensagem ou elemento que precisa ser mostrado no corpo do componente.    
 
 
 */
