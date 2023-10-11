@@ -15,9 +15,6 @@ class App extends Component {
       ]
   }
 
-
-
-
    adicionarComentario =()=>{
 
     //criando um objeto para adicionar
@@ -37,15 +34,11 @@ class App extends Component {
       2 - colocar dentro dela um objeto que vai chamar o array de comentarios 
       3 - para pegar todos os indices usar o operador ...
       4 - e depois e so colocar uma virgula eo nomne do novo objeto
-
+      
     */
     this.setState({comentarios:[ ...this.state.comentarios, novoComentario]});
      
    };
-
-
-
-   
   
   render(){
 
