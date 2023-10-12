@@ -19,7 +19,7 @@ const Comentario = (props) => (
         <p>{props.email}</p>
         <div>{props.children}</div>
         <p>{props.data.toString()}</p>
-        
+        <button onClick={props.onRemove}>&times;</button>        
     </div>
 );
 
