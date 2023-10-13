@@ -1,26 +1,27 @@
 import React from "react";
 import './Comentario.css';
+import imagemUsuario from './user.png';
 
-/*
-  Este é um exemplo de componete de função
-  sendo estilizado apartor de um codigo css externo
-  Vale ressaltar que o arquivo.
-
-  App.css -> controla a estilização geral de todos os compomentes dentro da tag app
-  enquanto o arquivo
-  
-  Comentario.css ->  controla especificamente este componente 
-*/
 
 
 const Comentario = (props) => (
+
     <div className="Comentario" >
-        <div>{props.nome}</div>
-        <p>{props.email}</p>
-        <div>{props.children}</div>
-        <p>{props.data.toString()}</p>
-        <button onClick={props.onRemove}>&times;</button>        
+        <img class="avatar" src={imagemUsuario} alt="props.nome"></img>
+
+        <div class="conteudo">
+        <div class="nome" >{props.nome}</div>
+        
+            <p   class="email">{props.email}</p>
+            <div class="mensagem" >{props.children}</div>
+            <p   class="data" >{props.data.toString()}</p>
+
+            <button onClick={props.onRemove}>&times;</button>  
+        </div>
+
+            
     </div>
+
 );
 
 export default Comentario;

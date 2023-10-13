@@ -5,6 +5,7 @@ import Comentario from './components/Comentario';
 
 
 
+
 class App extends Component {
 
  
@@ -96,7 +97,7 @@ class App extends Component {
 
 
                     
-           <form method='post' onSubmit={this.adicionarComentario}>
+           <form method='post' onSubmit={this.adicionarComentario} className='Novo-comentario' >
              <h2>Adicionar comentario</h2>
 
              <div>
