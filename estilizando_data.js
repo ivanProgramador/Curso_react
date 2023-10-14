@@ -1,3 +1,8 @@
+/*
+ Para estilizar data eu usei a biblioteca date-fns 
+ abaixo mostra como ela é importada e como ela é usada em aum componente
+*/
+
 import React from "react";
 import { formatRelative } from "date-fns";
 import './Comentario.css';
